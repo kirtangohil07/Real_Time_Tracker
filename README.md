@@ -9,10 +9,10 @@ The **Real-Time Location Tracker** is a web-based application that allows users 
 - Automatically displays markers for connected users and updates them as they move.
 - Removes a user's marker when they disconnect.
 - Mobile and desktop support.
-  
-## Demo
+  <!--
+<!--## Demo
 
-[Live Demo](https://your-live-demo-url.com) <!-- Add a link to your deployed project demo -->
+[Live Demo](https://your-live-demo-url.com)    Add a link to your deployed project demo -->
 
 ## Technologies Used
 
@@ -37,7 +37,7 @@ To run this project locally, you need the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/Real_Time_Tracker.git
+    git clone https://github.com/kirtangohil07/Real_Time_Tracker.git
     ```
 
 2. Navigate to the project directory:
