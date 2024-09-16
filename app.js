@@ -38,6 +38,6 @@ server.listen(3000, '0.0.0.0', (err) => {
     if (err) {
         console.error('Server failed to start:', err);
     } else {
-        console.log('Server running on http://localhost:3000');
+        console.log('Server running on https://real-time-tracker-drab.vercel.app/');
     }
 });
