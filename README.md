@@ -1,58 +1,76 @@
 # Real_Time_Tracker
 
-Overview
-The Real-Time Location Tracker is a web-based application that allows users to share their real-time location on a map. Users can view their location as well as the locations of other users connected to the platform in real time. This project uses Socket.IO for real-time communication, Leaflet.js for map display, and Express.js as the backend framework.
+The **Real-Time Location Tracker** is a web-based application that allows users to share and track their real-time location on a map. Multiple users can connect and see each other's locations live. It uses **Socket.IO** for real-time communication and **Leaflet.js** to display an interactive map.
 
-Features
-Real-time location tracking of multiple users.
-Users can see their own location and the locations of others on a shared map.
-Automatically removes a user's marker when they disconnect.
-Works across devices (e.g., mobile and desktop).
-Demo
-Add a link to the deployed version (e.g., Heroku, Vercel) once deployed:
 
-Live Demo
-Technologies Used
-Node.js: Backend server.
-Express.js: Web framework for Node.js.
-Socket.IO: For real-time, bidirectional communication.
-Leaflet.js: Open-source JavaScript library for maps.
-OpenStreetMap: The map data provider for the project.
-EJS: Templating engine to render HTML on the server side.
-Getting Started
-Prerequisites
-Node.js and npm installed on your machine.
-Basic understanding of JavaScript and web development.
-Installation
-Clone the repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/yourusername/Real_Time_Tracker.git
-Navigate to the project directory:
+- Real-time location tracking of multiple users.
+- Automatically displays markers for connected users and updates them as they move.
+- Removes a user's marker when they disconnect.
+- Mobile and desktop support.
+  
+## Demo
 
-bash
-Copy code
-cd Real_Time_Tracker
-Install the dependencies:
+[Live Demo](https://your-live-demo-url.com) <!-- Add a link to your deployed project demo -->
 
-bash
-Copy code
-npm install
-Running the Application Locally
-Start the server:
+## Technologies Used
 
-bash
-Copy code
-npm start
-By default, the server will run on http://localhost:3000.
+- **Node.js**: Backend server
+- **Express.js**: Web framework for Node.js
+- **Socket.IO**: Real-time, bidirectional communication between client and server
+- **Leaflet.js**: JavaScript library for maps
+- **OpenStreetMap**: Map data provider
+- **EJS**: Embedded JavaScript templating for rendering views on the server-side
 
-Access the app:
+## Getting Started
 
-Open your browser and navigate to http://localhost:3000. You should see the map interface, and your location will be tracked in real time.
+### Prerequisites
 
-Accessing on a Local Network (Mobile)
-To access the app on a mobile device connected to the same local network:
+To run this project locally, you need the following installed:
 
-Find your computer's local IP address (for example 192.168.1.x).
-Run the app using http://<your_local_ip>:3000 (replace <your_local_ip> with the actual IP).
+- [Node.js](https://nodejs.org/en/) (v12 or higher)
+- [npm](https://www.npmjs.com/) (v6 or higher)
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/Real_Time_Tracker.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Real_Time_Tracker
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Running the Application Locally
+
+1. Start the server:
+
+    ```bash
+    npm start
+    ```
+
+2. Open your browser and go to:
+
+    ```bash
+    http://localhost:3000
+    ```
+
+Your location should appear on the map (if location sharing is enabled on your device).
+
+### Mobile Access
+
+To access the app on your mobile device, make sure both your computer and phone are connected to the same local network. Then, find your computer's IP address and access the app by navigating to:
+
+```bash
+http://<your_local_ip>:3000
