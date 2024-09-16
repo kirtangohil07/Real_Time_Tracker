@@ -38,6 +38,6 @@ server.listen(3000, '0.0.0.0', (err) => {
     if (err) {
         console.error('Server failed to start:', err);
     } else {
-        console.log('Server running on https://real-time-tracker-drab.vercel.app/');
+        console.log('Server running on https://real-time-tracker-git-main-kirtans-projects-85746a71.vercel.app/');
     }
 });
