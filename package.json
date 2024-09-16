@@ -2,9 +2,11 @@
   "name": "real_time_tracker_project",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "scripts": {
+      "start": "node app.js",
+      "build": "echo 'No build step required'"
+    }
+,  
   "keywords": [],
   "author": "",
   "license": "ISC",
